@@ -1,0 +1,9 @@
+// This line is just a comment and will be ignored. Blank lines will be ignored, too.
+                                                                 
+exec: echo "This string is equal in f1.txt and f2.txt" > f1.txt
+exec: echo "This string is equal in f1.txt and f2.txt" > f2.txt
+exec: echo "This string is different in f4.txt" > f3.txt
+exec: echo "This string is different in f3.txt" > f4.txt
+aaa
+compare: f1.txt, f2.txt
+compare: f3.txt, f4.txt

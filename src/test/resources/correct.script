@@ -1,0 +1,14 @@
+// This line is just a comment and will be ignored. Blank lines will be ignored, too.
+
+exec: echo "This string is equal in f1.txt and f2.txt" > f1.txt
+exec: echo "This string is equal in f1.txt and f2.txt" > f2.txt
+exec: echo "This string is different in f4.txt" > f3.txt
+exec: echo "This string is different in f3.txt" > f4.txt
+exec: echo "     *Ignore in f5.txt" > f5.txt
+           
+//Ignore the lines that start with the strings below.      
+ignore:     *
+ignore: TOTAL CPU TIME:
+
+compare: f1.txt, f2.txt
+compare: f3.txt, f4.txt

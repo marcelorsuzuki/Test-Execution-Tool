@@ -1,0 +1,9 @@
+// This is a comment line
+
+exec:<put here a command line to execute>
+exec:<put here another command line to execute>
+           
+ignore:<put here a string to match with a start of line to ignore that line to compare> 
+
+compare:<put here a right file name>, <put here a result file name>
+compare:<put here a right file name>, <put here a result file name>
